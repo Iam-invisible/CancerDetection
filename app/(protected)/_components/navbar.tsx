@@ -56,6 +56,20 @@ export const Navbar = () => {
           </Button>
           <Button
             asChild
+            variant={pathname === "/breastcancer" ? "default" : "outline"}
+            className="w-full"
+          >
+            <Link href="/breastcancer">Breast Cancer</Link>
+          </Button>
+          <Button
+            asChild
+            variant={pathname === "/cervicalcancer" ? "default" : "outline"}
+            className="w-full"
+          >
+            <Link href="/cervicalcancer">Cervical Cancer</Link>
+          </Button>
+          <Button
+            asChild
             variant={pathname === "/lungcancer" ? "default" : "outline"}
             className="w-full"
           >
@@ -63,10 +77,17 @@ export const Navbar = () => {
           </Button>
           <Button
             asChild
-            variant={pathname === "/breastcancer" ? "default" : "outline"}
+            variant={pathname === "/prostatecancer" ? "default" : "outline"}
             className="w-full"
           >
-            <Link href="/breastcancer">Breast Cancer</Link>
+            <Link href="/prostatecancer">Prostate Cancer</Link>
+          </Button>
+          <Button
+            asChild
+            variant={pathname === "/skincancer" ? "default" : "outline"}
+            className="w-full"
+          >
+            <Link href="/skincancer">Skin Cancer</Link>
           </Button>
           <Button
             asChild
