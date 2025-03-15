@@ -26,6 +26,27 @@ export default function App() {
             </h1>
           </header>
 
+<section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center">
+            <div className="p-6 sm:p-8 md:p-12 bg-white border rounded-lg">
+              <img src='/circle.png' alt='newsletter' className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 mx-auto mb-4" />
+              <h2 className="text-lg sm:text-xl font-bold mb-4 md:mb-6">Online Appoinment</h2>
+              <p>The gradual accumulation of 
+information about atomic and 
+small-scale behaviour...</p>
+            </div>
+            <div className="p-6 sm:p-8 md:p-12 bg-white border rounded-lg">
+              <img src='/circle1.png' alt='linkedinicon' className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 mx-auto mb-4" />
+              <h2 className="text-lg sm:text-xl font-bold mb-2 md:mb-6">Emergency Case</h2>
+              <p>The gradual accumulation of 
+information about atomic and 
+small-scale behaviour...</p>
+            </div>
+            <div className="p-6 sm:p-8 md:p-12 bg-white border rounded-lg">
+              <img src='/circle2.png' alt='xicon' className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 mx-auto mb-4" />
+              <h2 className="text-lg sm:text-xl font-bold mb-2 md:mb-6">Cancer Care</h2>
+              <p>The gradual accumulation of 
+information about atomic and 
+small-scale behaviour...</p>
             </div>
           </section>
 
