@@ -10,7 +10,7 @@ const Navbar = async () => {
           <Link href='/' className='flex z-40 font-semibold'>
           <h1 className=
           "text-2xl font-semibold text-black drop-shadow-md">
-        Onco <span className="text-blue-600"> Sight</span>
+        Onco <span className="text-green-700"> Vision</span>
         </h1>
           </Link>
           
