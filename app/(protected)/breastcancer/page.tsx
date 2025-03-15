@@ -13,7 +13,7 @@ const Upload: React.FC = () => {
 
   const initModel = async () => {
     try {
-      const baseURL = process.env.NEXT_PUBLIC_TEACHABLE_MACHINE_2_URL;
+      const baseURL = process.env.NEXT_PUBLIC_TEACHABLE_MACHINE_BREAST_URL;
       if (!baseURL) throw new Error("Model URL not defined in environment variables.");
       
       const modelURL = `${baseURL}model.json`;
