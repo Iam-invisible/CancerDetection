@@ -50,13 +50,7 @@ small-scale behaviour...</p>
             </div>
           </section>
 
-          <section className="text-center flex flex-col items-center justify-center space-y-4 md:space-y-0 md:flex-row md:space-x-4">
-            <div className="flex flex-col items-center space-y-1">
-              <span className="text-gray-600 text-lg">100+ Doctors</span>
-              <span className="text-gray-600">Already Joined</span>
-            </div>
-            <Image src='/arrow.png' alt='arrow' className="hidden md:block w-8 h-6 md:w-12 md:h-8" width={48} height={32} />
-
+          <section className="text-center flex flex-col items-center justify-center space-y-4 md:space-y-0 md:flex-row md:space-x-4">              
             <LoginButton  asChild>
             <Button variant="default" size="lg">
               Get Started 
