@@ -20,7 +20,7 @@ export const Header = ({
         "text-3xl font-semibold",
         font.className,
       )}>
-       Onco<span className="text-blue-600"> Sight</span>
+       Onco<span className="text-green-700"> Vision</span>
       </h1>
       <p className="text-muted-foreground text-sm">
         {label}

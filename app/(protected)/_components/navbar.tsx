@@ -35,7 +35,7 @@ export const Navbar = () => {
         <div className="flex flex-col gap-y-2 w-full">
           <div className="flex justify-between items-center w-full">
             <h1 className="text-2xl">
-              Onco <span className="text-green-600">Vision</span>
+              Onco <span className="text-green-700">Vision</span>
             </h1>
             {/* Close Button for Mobile */}
             <button
