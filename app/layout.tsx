@@ -7,7 +7,7 @@ import { Toaster } from "@/components/ui/sonner";
 const inter = Bricolage_Grotesque({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'OncoSight',
+  title: 'OncoVision',
   description: 'Health Care',
 }
 

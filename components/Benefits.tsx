@@ -37,7 +37,7 @@ const Benefits = () => {
     <div className="container mx-auto px-4 py-16 transform scale-105 mt-5">
       <div className="flex flex-col items-center mb-8">
         <h1 className="text-4xl font-bold text-center flex items-center">
-          Why Choose Our Platform ?
+          Why Choose This Platform ?
         </h1>
       </div>
       <div className="grid grid-cols-1 gap-8 ">
