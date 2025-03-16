@@ -49,11 +49,11 @@ information about atomic and
 small-scale behaviour...</p>
             </div>
           </section>
-
+          
           <section className="text-center flex flex-col items-center justify-center space-y-4 md:space-y-0 md:flex-row md:space-x-4">              
             <LoginButton  asChild>
             <Button variant="default" size="lg">
-              Get Started 
+              Get Started
             </Button>
           </LoginButton>
            
