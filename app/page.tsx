@@ -4,7 +4,7 @@ import FeaturesSection from '@/components/Feature';
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 import { GraduationCap } from 'lucide-react';
 import Navbar from '@/components/Navbar';
-import Image from 'next/image';
+
 import { Button } from "@/components/ui/button";
 import { LoginButton } from "@/components/auth/login-button";
 export default function App() {
@@ -49,7 +49,7 @@ information about atomic and
 small-scale behaviour...</p>
             </div>
           </section>
-          
+
           <section className="text-center flex flex-col items-center justify-center space-y-4 md:space-y-0 md:flex-row md:space-x-4">              
             <LoginButton  asChild>
             <Button variant="default" size="lg">
