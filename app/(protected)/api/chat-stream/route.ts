@@ -2,12 +2,12 @@ import { ragchat } from "../../lib/rag-chat";
 import { aiUseChatAdapter } from "@upstash/rag-chat/nextjs";
 import { NextRequest } from "next/server";
 
-export const POST=async(req:NextRequest)=>{
-const {messages,sessionId}= await req.json(); // how we get access to body in next
-const lastmessage=messages[messages.length-1].content
+export const POST = async (req: NextRequest) => {
+  const { messages, sessionId } = await req.json(); // how we get access to body in next
+  const lastmessage = messages[messages.length - 1].content;
 
-const response=await ragchat.chat(lastmessage,{streaming:true,sessionId})
+  const response = await ragchat.chat(lastmessage, { streaming: true, sessionId });
 
-return aiUseChatAdapter(response)
-}
-//steaming:true means it will response like typing stream.
+  return aiUseChatAdapter(response);
+};
+// streaming:true means it will respond like typing stream.
